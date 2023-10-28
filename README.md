@@ -3,7 +3,11 @@
 - 🌱  
 - 💞️ I’m looking to collaborate on web development and python projects
 - 📫 How to reach me
-Email  masigwafelix@gmail.com 
+Email  masigwafelix@gmail.com
+
+## 😂 Here is a random joke that'll make you laugh!
+``![Jokes Card](https://readme-jokes.vercel.app/api)``
+
 
 
 <!---
