@@ -8,12 +8,15 @@ Email masigwafelix@gmail.com
 ![Jokes Card](https://readme-jokes.vercel.app/api)
 
 <div style="display: flex;">
-    <div style="flex: 1;">
-        <h2>📊 My GitHub Stats</h2>
-        <img src="https://github-readme-stats.vercel.app/api?username=Veolinan&show_icons=true" alt="GitHub Stats" />
-    </div>
-    <div style="flex: 1;">
-        <h2>📈 Most Used Languages</h2>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Veolinan&theme=blue-green" alt="Most Used Languages" />
-    </div>
+
+  <div style="flex: 50%; padding: 10px;">
+    <h2>📊 My GitHub Stats</h2>
+    <img src="https://github-readme-stats.vercel.app/api?username=Veolinan&show_icons=true" alt="GitHub Stats" />
+  </div>
+
+  <div style="flex: 50%; padding: 10px;">
+    <h2>📈 Most Used Languages</h2>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Veolinan&theme=blue-green" alt="Most Used Languages" />
+  </div>
+
 </div>
