@@ -10,3 +10,6 @@ Email masigwafelix@gmail.com
 Welcome to my GitHub profile, where I'm on a journey to explore the realms of code, conquer computer security, and share my passion for technology. Check out my latest GitHub activity below!
 
 ![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=Veolinan&show_icons=true)
+
+
+![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=Veolinan&theme=blue-green)
