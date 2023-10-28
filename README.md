@@ -7,9 +7,13 @@ Email masigwafelix@gmail.com
 ## 😂 Here is a random joke that'll make you laugh!
 ![Jokes Card](https://readme-jokes.vercel.app/api)
 
-Welcome to my GitHub profile, where I'm on a journey to explore the realms of code, conquer computer security, and share my passion for technology. Check out my latest GitHub activity below!
-
-![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=Veolinan&show_icons=true)
-
-
-![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=Veolinan&theme=blue-green)
+<div style="display: flex;">
+    <div style="flex: 1;">
+        <h2>📊 My GitHub Stats</h2>
+        <img src="https://github-readme-stats.vercel.app/api?username=Veolinan&show_icons=true" alt="GitHub Stats" />
+    </div>
+    <div style="flex: 1;">
+        <h2>📈 Most Used Languages</h2>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Veolinan&theme=blue-green" alt="Most Used Languages" />
+    </div>
+</div>
