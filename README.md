@@ -4,37 +4,8 @@
 ## 📫 How to reach me
 Email masigwafelix@gmail.com
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Auto-Loading Jokes</title>
-</head>
-<body>
-  <div id="joke-container">
-    <!-- Joke will be displayed here -->
-  </div>
-
-  <script>
-    function fetchJoke() {
-      // Fetch a new joke from the API or source
-      fetch('https://readme-jokes.vercel.app/api')
-        .then(response => response.json())
-        .then(data => {
-          document.getElementById('joke-container').innerHTML = data.joke;
-        })
-        .catch(error => console.error('Error fetching joke:', error));
-    }
-
-    // Initial load
-    fetchJoke();
-
-    // Set interval to load a new joke every 30 seconds
-    setInterval(fetchJoke, 30000);
-  </script>
-</body>
-</html>
+## 😂 Here is a random joke that'll make you laugh!
+![Jokes Card](https://readme-jokes.vercel.app/api)
 
 
 <div style="display: flex;">
