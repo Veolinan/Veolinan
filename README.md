@@ -4,8 +4,39 @@
 ## 📫 How to reach me
 Email masigwafelix@gmail.com
 
-## 😂 Here is a random joke that'll make you laugh!
-![Jokes Card](https://readme-jokes.vercel.app/api)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refreshing Joke</title>
+</head>
+<body>
+
+<div id="joke-container" style="display: flex;"></div>
+
+<script>
+function fetchJoke() {
+    // Fetch the joke content and update the #joke-container
+    fetch('https://readme-jokes.vercel.app/api')
+        .then(response => response.json())
+        .then(data => {
+            const jokeContainer = document.getElementById('joke-container');
+            jokeContainer.innerHTML = data.html;
+        })
+        .catch(error => console.error('Error fetching joke:', error));
+}
+
+// Initial fetch when the page loads
+fetchJoke();
+
+// Refresh the joke every 5 seconds
+setInterval(fetchJoke, 5000);
+</script>
+
+</body>
+</html>
+
 
 
 <div style="display: flex;">
